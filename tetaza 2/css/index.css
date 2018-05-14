@@ -1,0 +1,251 @@
+body {
+  font-family: sans-serif;
+}
+
+::placeholder {
+  color: white;
+}
+body img {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 140px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+header img {
+  width: 20%;
+}
+
+header form {
+  width: 25%;
+  margin-left: 67%;
+  position: absolute;
+  top: 40px;
+}
+
+header form input {
+  width: 80%;
+  height: 50px;
+  background-color: #2297c5;
+  border-radius: 1rem;
+  font-size: 18px;
+  margin-right: -55px;
+  float: left;
+  color: #fff;
+  text-indent: 10%;
+  border: none;
+}
+
+header form button {
+  width: 30%;
+  height: 50px;
+  background-color: #ffa9e4;
+  border-radius: 1rem;
+}
+
+header form button img {
+  width: 50%;
+}
+
+header a img {
+  margin-top: 30px;
+  width: 3%;
+  float: right;
+  margin-right: 10px;
+}
+
+.contenedor #site-nav {
+  margin: 0 auto;
+  font-family: helvetica, sans-serif;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor #site-nav .site-ul li {
+  float: left;
+  list-style: none;
+}
+
+.contenedor #site-nav .site-ul li ul {
+  width: 20%;
+  min-height: 60px;
+  display: none;
+  position: absolute;
+}
+
+.contenedor #site-nav .site-ul li ul li {
+  position: relative;
+}
+
+.contenedor #site-nav .site-ul li ul li ul {
+  right: -20%;
+  top: 0;
+}
+
+.contenedor #site-nav .site-ul li a {
+  text-align: center;
+  padding: 20px 15px;
+  width: 150px;
+  display: block;
+  color: #2297c5;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.contenedor .cta div {
+  background-color: #2297c5;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+  width: 48%;
+  margin: 10px 5px;
+  text-align: center;
+}
+
+.contenedor .cta div h3 {
+  font-size: 34px;
+  padding: 20px 10px;
+  font-family: sans-serif;
+}
+
+.contenedor .cta .column-1 {
+  float: left;
+}
+
+.contenedor .cta .column-2 {
+  float: right;
+}
+
+.contenedor .productpage .aside {
+  display: inline-block;
+  margin: 0 10px 0 40px;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+
+.contenedor .productpage .aside .breadcum {
+  font-size: 16px;
+  margin-bottom:20px; 
+}
+
+.contenedor .productpage .aside .trending {
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom:20px; 
+}
+
+.contenedor .productpage .aside .special {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contenedor .productpage .aside .style {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contenedor .productpage .products {
+  display: inline-block;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.contenedor .productpage .products .price {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contenedor .productpage .products p:last-child {
+  margin-bottom: 20px;
+}
+.contenedor div .products {
+  text-align: center;
+}
+
+.contenedor div .products .producto {
+  display: inline-block;
+  width: 20%;
+  margin: 0 2.3%;
+}
+
+.contenedor .sales {
+  text-align: center;
+}
+
+.contenedor .sales .atras, .contenedor .sales .adelante {
+  width: 5%;
+  display: inline-block;
+  margin-top: 4%;
+  position: absolute;
+}
+
+.contenedor .sales .adelante {
+  margin-left: -5%;
+}
+
+.contenedor .sales .producto {
+  display: inline-block;
+  width: 7%;
+  margin: 0 2.3%;
+}
+
+footer {
+}
+
+footer .part1 {
+  font-family: sans-serif;
+  background-color: #daf7f3;
+  color: #9c9b9b;
+  padding: 10px 2%;
+  text-align: center;
+}
+
+footer .part1 .col {
+  text-align: left;
+  display: inline-block;
+  width: 19%;
+}
+footer .part1 .col h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+footer .part1 .col a {
+  margin: 0 10px;
+  color: #9c9b9b;
+  text-decoration: none;
+}
+
+footer .part1 .col ul li {
+  list-style: none;
+}
+
+footer .part1 .col ul li a {
+  margin: 0 10px;
+  color: #9c9b9b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer .part2 {
+  padding: 20px;
+  background-color: #beede9;
+  color: #575756;
+  font-family: sans-serif;
+}
+
+footer .part2 .links a {
+  margin: 0 10px;
+  color: #575756;
+  text-decoration: none;
+  font-weight: bold;
+}
